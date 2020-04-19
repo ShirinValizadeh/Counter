@@ -1,0 +1,40 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellowgreen;
+    color: white;
+    text-transform: capitalize;
+}
+
+.counter-box{
+    flex:0 0 70%;
+    text-align: center;
+    border: 3px solid gray;
+    padding: 1rem;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px 10px black;
+}
+
+.counter{
+    font-size: 9rem;
+
+}
+
+.btn{
+    background-color: gray;
+    border-radius: 8px;
+    font-size: 2rem;
+    padding: 0.3rem;
+    margin: 0.5rem ;
+    /* border: 3px solid white; */
+    box-shadow: 0px 1px 10px 5px black;
+    outline:  none;
+}
+.btn:hover{
+    background-color: yellowgreen;
+}
+.btn:active{
+    box-shadow: none;
+}
